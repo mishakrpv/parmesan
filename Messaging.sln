@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parmesan.Messaging.API", "src\Parmesan.Messaging.API\Parmesan.Messaging.API.csproj", "{3044AC8F-9CD6-4CA3-8A99-384CA1172489}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0392400B-B7E0-4E38-AB67-A43A6CAE4F2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3FFC5694-2EF8-4C86-B388-1E8CE2D20F74}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.dockerignore = .dockerignore
+		Directory.Packages.props = Directory.Packages.props
+		global.json = global.json
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parmesan.RelayService", "src\Parmesan.RelayService\Parmesan.RelayService.csproj", "{57ED8922-6BAC-4DF1-8C19-B704517780B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parmesan.LastSeenService.API", "src\Parmesan.LastSeenService.API\Parmesan.LastSeenService.API.csproj", "{97B5C599-451E-4272-AEE4-212EAEF31904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parmesan.SessionService.API", "src\Parmesan.SessionService.API\Parmesan.SessionService.API.csproj", "{A590A664-71B6-494F-B5C5-3A158798FC36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3044AC8F-9CD6-4CA3-8A99-384CA1172489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3044AC8F-9CD6-4CA3-8A99-384CA1172489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3044AC8F-9CD6-4CA3-8A99-384CA1172489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3044AC8F-9CD6-4CA3-8A99-384CA1172489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57ED8922-6BAC-4DF1-8C19-B704517780B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57ED8922-6BAC-4DF1-8C19-B704517780B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57ED8922-6BAC-4DF1-8C19-B704517780B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57ED8922-6BAC-4DF1-8C19-B704517780B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B5C599-451E-4272-AEE4-212EAEF31904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B5C599-451E-4272-AEE4-212EAEF31904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B5C599-451E-4272-AEE4-212EAEF31904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B5C599-451E-4272-AEE4-212EAEF31904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A590A664-71B6-494F-B5C5-3A158798FC36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A590A664-71B6-494F-B5C5-3A158798FC36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A590A664-71B6-494F-B5C5-3A158798FC36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A590A664-71B6-494F-B5C5-3A158798FC36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3044AC8F-9CD6-4CA3-8A99-384CA1172489} = {0392400B-B7E0-4E38-AB67-A43A6CAE4F2A}
+		{57ED8922-6BAC-4DF1-8C19-B704517780B7} = {0392400B-B7E0-4E38-AB67-A43A6CAE4F2A}
+		{97B5C599-451E-4272-AEE4-212EAEF31904} = {0392400B-B7E0-4E38-AB67-A43A6CAE4F2A}
+		{A590A664-71B6-494F-B5C5-3A158798FC36} = {0392400B-B7E0-4E38-AB67-A43A6CAE4F2A}
+	EndGlobalSection
+EndGlobal
